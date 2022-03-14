@@ -184,13 +184,28 @@ body{
 
 /* carousel  instagram wala */
 
+.carousel{
+    color: white;
+}
 
+.flickity-page-dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    background: rgb(255 255 255);
+    border-radius: 50%;
+    opacity: .25;
+    cursor: pointer;
+    color: rgb(255 255 255);
+}
 
 .carousel-cell {
   width: 66%;
   height: 200px;
   margin-right: 10px;
   border-radius: 5px;
+  color: white;
 
 }
 
